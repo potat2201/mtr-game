@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Match 5</title>
+  <link rel="stylesheet" href="style.css?v=3" />
+</head>
+<body>
+  <div class="app">
+    <header class="hud">
+      <div class="hud__steps">
+        <span class="hud__label">Steps Left</span>
+        <span id="steps-count" class="hud__value">15</span>
+      </div>
+      <div class="hud__objectives">
+        <h2 class="hud__title">Objectives</h2>
+        <ul id="objectives-list" class="objectives" aria-live="polite"></ul>
+      </div>
+    </header>
+
+    <main class="game-area">
+      <div id="board" class="board" role="grid" aria-label="8 by 8 match game board"></div>
+    </main>
+  </div>
+
+  <div id="modal-win" class="modal" hidden>
+    <div class="modal__panel">
+      <h2>You Win!</h2>
+      <p>All color objectives complete.</p>
+      <button type="button" id="btn-play-again" class="btn">Play Again</button>
+    </div>
+  </div>
+
+  <div id="modal-lose" class="modal" hidden>
+    <div class="modal__panel">
+      <h2>Game Over!</h2>
+      <p>Out of steps — objectives not met.</p>
+      <button type="button" id="btn-try-again" class="btn">Try Again</button>
+    </div>
+  </div>
+
+  <script src="script.js?v=4"></script>
+</body>
+</html>
