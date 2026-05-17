@@ -3,7 +3,7 @@
 
   const SIZE = 8;
   const MIN_MATCH = 5;
-  const INITIAL_STEPS = 15;
+  const INITIAL_STEPS = 10;
   const OBJECTIVE_TARGET = 10;
 
   const COLORS = ["red", "blue", "green", "yellow"];

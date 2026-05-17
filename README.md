@@ -8,7 +8,7 @@ A **Match 5** puzzle game in the browser — swap adjacent tiles to make lines o
 
 - **Board:** 8×8 grid with 4 colors (red, blue, green, yellow)
 - **Match:** Swap two neighbors to form a horizontal or vertical line of **5 or more** of the same color
-- **Steps:** You start with **15** moves; only successful swaps count
+- **Steps:** You start with **10** moves; only successful swaps count
 - **Win:** Erase at least **10** tiles of each color
 - **Lose:** Steps reach 0 before all objectives are complete
 - If no swap can create a match, the board refreshes automatically
